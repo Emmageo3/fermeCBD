@@ -71,7 +71,7 @@ main{
     background: #252A21;
     padding: 10px;
 }
-
+/*
 .cbd-block-wrapper {
     position: absolute;
     bottom: -50px;
@@ -83,6 +83,7 @@ main{
     color: white;
     text-align: center;
 }
+*/
 
 .line {
     width: 100px;
@@ -92,10 +93,102 @@ main{
 }
 
 .categories{
-    background: url('img/500-seamless-pattern-2x.jpeg.webp');
-    height: 309px;
+    padding: 100px 50px 25px 50px;
+    background: url(https://media.cdnws.com/_i/65295/500/431/0/seamless-pattern-2x.webp);
 }
 
-.fleurs{
+.categorie1{
+    display: inline-block;
+    width: 29%;
+    height: 150px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    padding: 20px 30px;
+    margin: 15px;
     background: url('img/439-fleur-bg-2x.png.webp');
 }
+
+.categorie2{
+    display: inline-block;
+    width: 29%;
+    height: 150px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    padding: 20px 30px;
+    margin: 15px;
+    background: url('img/499-plan-huile-bg-2x.jpeg.webp');
+}
+
+.categorie3{
+    display: inline-block;
+    width: 29%;
+    height: 150px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    padding: 20px 30px;
+    margin: 15px;
+    background: url('img/438-resine-bg-2x.png.webp');
+}
+
+.cbd-block-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 20px 0;
+}
+
+.cbd-block-wrapper-title{
+    color: #ffffff !important;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 !important;
+    position: relative;
+    font-family: 'Playfair Display' !important;
+}
+
+hr{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 100px;
+    height: 2px;
+    background: #FEB142;
+}
+
+.meilleures-ventes{
+    background: url('img/500-seamless-pattern-2x.jpeg.webp');
+}
+
+.ventes{
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 44px;
+    color: #304122 !important;
+}
+
+.produits{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article{
+    position: relative;
+    background: #ffffff;
+    border: 2px solid #E2E2E2;
+}
+
