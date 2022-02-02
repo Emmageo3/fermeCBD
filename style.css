@@ -45,3 +45,57 @@ header .orange p{
     height: 38.38px;
     width: 460px;
 }
+
+nav{
+    height: 96px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.home-header{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url('img/495-cbd-header-home.jpeg.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.cbd-block-wrapper {
+    background: #252A21;
+    padding: 10px;
+}
+
+.cbd-block-wrapper {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    padding: 30px 140px;
+    color: white;
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    color: chartreuse;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.categories{
+    background: url('img/500-seamless-pattern-2x.jpeg.webp');
+    height: 309px;
+}
+
+.fleurs{
+    background: url('img/439-fleur-bg-2x.png.webp');
+}
