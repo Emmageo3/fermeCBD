@@ -23,4 +23,25 @@ header .orange{
 header .orange p{
     font-weight: 600;
     text-align: center;
+    font-size: 14px;
+}
+
+.black {
+    height: 60px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    height: auto;
+    min-height: 60px;
+    text-align: center;
+    padding: 20px 230px;
+    border-bottom: 1px solid black;
+}
+
+.logo img{
+    height: 38.38px;
+    width: 460px;
 }
