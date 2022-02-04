@@ -172,7 +172,7 @@ hr{
 
 .meilleures-ventes{
     background: url('img/500-seamless-pattern-2x.jpeg.webp');
-    height: 700px;
+   
 }
 
 .ventes{
@@ -284,5 +284,8 @@ a{
     align-items: center;
 }
 
+.categories1{
+    background: url(img/453-flour-indoor.png.webp);
+}
 
 
