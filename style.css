@@ -241,5 +241,48 @@ hr{
     margin-left: 1rem;
 }
 
+.informations{
+    background: url(img/498-big-weed-bg.jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 362px;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.inform-title{
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    margin-top: 30px;
+}
+
+.inform-link{
+    
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 19px;
+    position: relative;
+    text-align: center;
+}
+
+.link-line{
+    width: 50px;
+    height: 2px;
+    background: #FEB142;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
