@@ -172,6 +172,7 @@ hr{
 
 .meilleures-ventes{
     background: url('img/500-seamless-pattern-2x.jpeg.webp');
+    height: 700px;
 }
 
 .ventes{
@@ -182,13 +183,63 @@ hr{
 }
 
 .produits{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -ms-flexbox;
     display: flex;
+    min-width: 100%;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-right: 2rem;
+    margin-top: 5rem;
 }
 
-.article{
-    position: relative;
-    background: #ffffff;
-    border: 2px solid #E2E2E2;
+.produit{
+    height: 490px;
+    width: 295px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    background-color: white;
+    margin: 2rem;
+    text-align: center;
 }
+
+.produit img{
+    height: 300px;
+    width: 270px;
+}
+
+.produit h1{
+    font-size: 25px;
+}
+
+.produit .stars{
+    margin-top: 1rem;
+}
+
+.produit button{
+    display: block;
+    background: #FEB142;
+    color: #fff;
+    text-transform: none;
+    font-weight: 400;
+    text-align: center;
+    width: 90%;
+    border: none;
+    border-bottom: 4px solid #BC6D29;
+    height: 55px;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 0;
+    margin-top: 60px;
+    margin-left: 1rem;
+}
+
+
 
