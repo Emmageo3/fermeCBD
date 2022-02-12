@@ -350,6 +350,17 @@ a{
     height: 380px;
 }
 
+.blog-before{
+    background: url(img/436-index-blog-top-2x.png.webp);
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.blog{
+    background: url(img/502-index-blog-bg-2x.jpeg.webp);
+    height: 570px;
+}
+
 
 
 
