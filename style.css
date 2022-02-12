@@ -284,8 +284,72 @@ a{
     align-items: center;
 }
 
-.categories1{
-    background: url(img/453-flour-indoor.png.webp);
+.best-categories{
+    margin-top: 3rem;
+    text-align: center;
 }
+
+.categorie-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorie1-item{
+    background: url(img/453-flour-indoor.png.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 220px;
+    margin: 10px;
+}
+.categorie-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorie2-item{
+    background: url(img/453-flour-indoor.png.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.categorie-wrapper{
+    text-align: left;
+    max-width: 190px;
+    float: right;
+    margin-right: 50px;
+}
+
+.category-title{
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 28px;
+    position: relative;
+    line-height: 1.6rem;
+    margin-top: 20px;
+}
+
+.parrainage{
+    background: url(img/427-bg-parrainage-top-2x.png.webp);
+    height: 46px;
+    margin-top: 5px;
+}
+
+.customer{
+    background: url(img/437-index-customer-rating-bg-2x.png.webp);
+    text-align: center;
+    height: 380px;
+}
+
+
 
 
