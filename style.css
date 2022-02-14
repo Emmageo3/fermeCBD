@@ -361,6 +361,68 @@ a{
     height: 570px;
 }
 
+.end-blog{
+    background: url(img/434-index-legal-top.png.webp);
+    height: 46px;
+    background-color: #252A21;
+}
+
+.dernier-mot{
+    background: url(img/435-index-legal-top.png.webp);
+    height: 377px;
+
+}
+
+.services{
+    background: url(img/337-reassurance-bg.png.webp);
+    height: 172px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: url(https://media.cdnws.com/_i/171161/337/2970/40/reassurance-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid #DCE5E9;
+    border-bottom: 3px solid #50AD59;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.content{
+    background: #FEFAE0;
+    position: relative;
+    text-align: center;
+    line-height: 1;
+    font-size: 0.875rem;
+    color: #242920;
+    margin: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.footer{
+    background-color: #2B2B2B;
+    height: 600px;
+}
 
 
 
