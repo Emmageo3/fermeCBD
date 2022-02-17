@@ -773,7 +773,6 @@
         height: 172px;
         width: 100%;
         margin: 0 auto;
-        max-width: 1440px;
         background: url(https://media.cdnws.com/_i/171161/337/2970/40/reassurance-bg.webp);
         background-repeat: no-repeat;
         background-size: cover;
@@ -811,7 +810,7 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        padding: 10px 50px;
+        padding: 5px 30px;
     }
     
     .footer{
