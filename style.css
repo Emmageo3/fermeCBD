@@ -798,7 +798,6 @@
     
     .services{
         background: url(img/337-reassurance-bg.png.webp);
-        height: 172px;
         width: 100%;
         margin: 0 auto;
         max-width: 1440px;
@@ -839,7 +838,7 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        padding: 10px 30px;
+        padding: 10px 3g0px;
     }
     
     .footer{
