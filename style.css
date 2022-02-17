@@ -5,424 +5,432 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header .orange{
-    background-color: #fdcb6e;
-    height: 60px;
-    width: 100%;
-    padding: 8px 20px;
-    display: flex;
-    flex-wrap: nowrap;
-    -webkit-box-pack: center;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    -webkit-box-align: center;
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+    header .orange{
+        background-color: #fdcb6e;
+        height: 60px;
+        width: 100%;
+        padding: 8px 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        -webkit-box-pack: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        -webkit-box-align: center;
+        
+    }
     
-}
-
-header .orange p{
-    font-weight: 600;
-    text-align: center;
-    font-size: 14px;
-}
-
-.black {
-    height: 60px;
-    background: black;
-    color: white;
-    text-align: center;
-}
-
-.logo{
-    height: auto;
-    min-height: 60px;
-    text-align: center;
-    padding: 20px 230px;
-    border-bottom: 1px solid black;
-}
-
-.logo img{
-    height: 38.38px;
-    width: 460px;
-}
-
-nav{
-    height: 96px;
-    text-align: center;
-    border-bottom: 1px solid black;
-}
-
-.home-header{
-    position: relative;
-    width: 100%;
-    height: 400px;
-    background: url('img/495-cbd-header-home.jpeg.webp');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-main{
-    margin-left: 12rem;
-    margin-right: 12rem;
-}
-
-.cbd-block-wrapper {
-    background: #252A21;
-    padding: 10px;
-}
-/*
-.cbd-block-wrapper {
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
-    padding: 30px 140px;
-    color: white;
-    text-align: center;
-}
-*/
-
-.line {
-    width: 100px;
-    color: chartreuse;
-    margin-top: 1rem;
-    margin-left: 5rem;
-}
-
-.categories{
-    padding: 100px 50px 25px 50px;
-    background: url(https://media.cdnws.com/_i/65295/500/431/0/seamless-pattern-2x.webp);
-}
-
-.categorie1{
-    display: inline-block;
-    width: 29%;
-    height: 150px;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    position: relative;
-    padding: 20px 30px;
-    margin: 15px;
-    background: url('img/439-fleur-bg-2x.png.webp');
-}
-
-.categorie2{
-    display: inline-block;
-    width: 29%;
-    height: 150px;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    position: relative;
-    padding: 20px 30px;
-    margin: 15px;
-    background: url('img/499-plan-huile-bg-2x.jpeg.webp');
-}
-
-.categorie3{
-    display: inline-block;
-    width: 29%;
-    height: 150px;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    position: relative;
-    padding: 20px 30px;
-    margin: 15px;
-    background: url('img/438-resine-bg-2x.png.webp');
-}
-
-.cbd-block-wrapper{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 60%;
-    padding: 20px 0;
-}
-
-.cbd-block-wrapper-title{
-    color: #ffffff !important;
-    font-size: 18px;
-    text-align: center;
-    margin: 0 !important;
-    position: relative;
-    font-family: 'Playfair Display' !important;
-}
-
-hr{
-    content: '';
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: -10px;
-    -webkit-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
-    width: 100px;
-    height: 2px;
-    background: #FEB142;
-}
-
-.meilleures-ventes{
-    background: url('img/500-seamless-pattern-2x.jpeg.webp');
-   
-}
-
-.ventes{
-    text-align: center;
-    font-family: 'Playfair Display';
-    font-size: 44px;
-    color: #304122 !important;
-}
-
-.produits{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    min-width: 100%;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: 2rem;
-    margin-top: 5rem;
-}
-
-.produit{
-    height: 490px;
-    width: 295px;
-    border: 1px solid rgba(0, 0, 0, 0.096);
-    background-color: white;
-    margin: 2rem;
-    text-align: center;
-}
-
-.produit img{
-    height: 300px;
-    width: 270px;
-}
-
-.produit h1{
-    font-size: 25px;
-}
-
-.produit .stars{
-    margin-top: 1rem;
-}
-
-.produit button{
-    display: block;
-    background: #FEB142;
-    color: #fff;
-    text-transform: none;
-    font-weight: 400;
-    text-align: center;
-    width: 90%;
-    border: none;
-    border-bottom: 4px solid #BC6D29;
-    height: 55px;
-    line-height: 1;
-    overflow: hidden;
-    white-space: nowrap;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 0;
-    margin-top: 60px;
-    margin-left: 1rem;
-}
-
-.informations{
-    background: url(img/498-big-weed-bg.jpeg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 362px;
-    padding: 100px;
-    text-align: center;
-
-}
-
-.inform-title{
-    font-family: 'Playfair Display';
-    text-align: center;
-    font-size: 44px;
-    color: #ffffff;
-}
-
-a{
-    text-decoration: none;
-}
-
-.link{
-    margin-top: 30px;
-}
-
-.inform-link{
+    header .orange p{
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+    }
     
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 19px;
-    position: relative;
-    text-align: center;
+    .black {
+        height: 60px;
+        background: black;
+        color: white;
+        text-align: center;
+    }
+    
+    .logo{
+        height: auto;
+        min-height: 60px;
+        text-align: center;
+        padding: 20px 230px;
+        border-bottom: 1px solid black;
+    }
+    
+    .logo img{
+        height: 38.38px;
+        width: 460px;
+    }
+    
+    nav{
+        height: 96px;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    
+    .home-header{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: url('img/495-cbd-header-home.jpeg.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    main{
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+    
+    .cbd-block-wrapper {
+        background: #252A21;
+        padding: 10px;
+    }
+    /*
+    .cbd-block-wrapper {
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        padding: 30px 140px;
+        color: white;
+        text-align: center;
+    }
+    */
+    
+    .line {
+        width: 100px;
+        color: chartreuse;
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+    
+    .categories{
+        padding: 100px 50px 25px 50px;
+        background: url(https://media.cdnws.com/_i/65295/500/431/0/seamless-pattern-2x.webp);
+    }
+    
+    .categorie1{
+        display: inline-block;
+        width: 29%;
+        height: 150px;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        position: relative;
+        padding: 20px 30px;
+        margin: 15px;
+        background: url('img/439-fleur-bg-2x.png.webp');
+    }
+    
+    .categorie2{
+        display: inline-block;
+        width: 29%;
+        height: 150px;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        position: relative;
+        padding: 20px 30px;
+        margin: 15px;
+        background: url('img/499-plan-huile-bg-2x.jpeg.webp');
+    }
+    
+    .categorie3{
+        display: inline-block;
+        width: 29%;
+        height: 150px;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        position: relative;
+        padding: 20px 30px;
+        margin: 15px;
+        background: url('img/438-resine-bg-2x.png.webp');
+    }
+    
+    .cbd-block-wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 60%;
+        padding: 20px 0;
+    }
+    
+    .cbd-block-wrapper-title{
+        color: #ffffff !important;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 !important;
+        position: relative;
+        font-family: 'Playfair Display' !important;
+    }
+    
+    hr{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        width: 100px;
+        height: 2px;
+        background: #FEB142;
+    }
+    
+    .meilleures-ventes{
+        background: url('img/500-seamless-pattern-2x.jpeg.webp');
+       
+    }
+    
+    .ventes{
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-size: 44px;
+        color: #304122 !important;
+    }
+    
+    .produits{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        min-width: 100%;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .produit{
+        height: 490px;
+        width: 295px;
+        border: 1px solid rgba(0, 0, 0, 0.096);
+        background-color: white;
+        margin: 2rem;
+        text-align: center;
+    }
+    
+    .produit img{
+        height: 300px;
+        width: 270px;
+    }
+    
+    .produit h1{
+        font-size: 25px;
+    }
+    
+    .produit .stars{
+        margin-top: 1rem;
+    }
+    
+    .produit button{
+        display: block;
+        background: #FEB142;
+        color: #fff;
+        text-transform: none;
+        font-weight: 400;
+        text-align: center;
+        width: 90%;
+        border: none;
+        border-bottom: 4px solid #BC6D29;
+        height: 55px;
+        line-height: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 0;
+        margin-top: 60px;
+        margin-left: 1rem;
+    }
+    
+    .informations{
+        background: url(img/498-big-weed-bg.jpeg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 362px;
+        padding: 100px;
+        text-align: center;
+    
+    }
+    
+    .inform-title{
+        font-family: 'Playfair Display';
+        text-align: center;
+        font-size: 44px;
+        color: #ffffff;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .link{
+        margin-top: 30px;
+    }
+    
+    .inform-link{
+        
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 19px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .link-line{
+        width: 50px;
+        height: 2px;
+        background: #FEB142;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .best-categories{
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    .categorie-container1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .categorie1-item{
+        background: url(img/453-flour-indoor.png.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 530px;
+        height: 220px;
+        margin: 10px;
+    }
+    .categorie-container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .categorie2-item{
+        background: url(img/453-flour-indoor.png.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 530px;
+        height: 220px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .categorie-wrapper{
+        text-align: left;
+        max-width: 190px;
+        float: right;
+        margin-right: 50px;
+    }
+    
+    .category-title{
+        font-family: 'Playfair Display';
+        font-weight: 800;
+        font-size: 28px;
+        position: relative;
+        line-height: 1.6rem;
+        margin-top: 20px;
+    }
+    
+    .parrainage{
+        background: url(img/427-bg-parrainage-top-2x.png.webp);
+        height: 46px;
+        margin-top: 5px;
+    }
+    
+    .customer{
+        background: url(img/437-index-customer-rating-bg-2x.png.webp);
+        text-align: center;
+        height: 380px;
+    }
+    
+    .blog-before{
+        background: url(img/436-index-blog-top-2x.png.webp);
+        height: 36px;
+        background-color: rgba(0, 0, 0, 0.788);
+    }
+    
+    .blog{
+        background: url(img/502-index-blog-bg-2x.jpeg.webp);
+        height: 570px;
+    }
+    
+    .end-blog{
+        background: url(img/434-index-legal-top.png.webp);
+        height: 46px;
+        background-color: #252A21;
+    }
+    
+    .dernier-mot{
+        background: url(img/435-index-legal-top.png.webp);
+        height: 377px;
+    
+    }
+    
+    .services{
+        background: url(img/337-reassurance-bg.png.webp);
+        height: 172px;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1440px;
+        background: url(https://media.cdnws.com/_i/171161/337/2970/40/reassurance-bg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-top: 1px solid #DCE5E9;
+        border-bottom: 3px solid #50AD59;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+    
+    .content{
+        background: #FEFAE0;
+        position: relative;
+        text-align: center;
+        line-height: 1;
+        font-size: 0.875rem;
+        color: #242920;
+        margin: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 10px 50px;
+    }
+    
+    .footer{
+        background-color: #2B2B2B;
+        height: 600px;
+    }
+  
 }
 
-.link-line{
-    width: 50px;
-    height: 2px;
-    background: #FEB142;
-    justify-content: center;
-    align-items: center;
-}
 
-.best-categories{
-    margin-top: 3rem;
-    text-align: center;
-}
-
-.categorie-container1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.categorie1-item{
-    background: url(img/453-flour-indoor.png.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 530px;
-    height: 220px;
-    margin: 10px;
-}
-.categorie-container2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.categorie2-item{
-    background: url(img/453-flour-indoor.png.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 530px;
-    height: 220px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.categorie-wrapper{
-    text-align: left;
-    max-width: 190px;
-    float: right;
-    margin-right: 50px;
-}
-
-.category-title{
-    font-family: 'Playfair Display';
-    font-weight: 800;
-    font-size: 28px;
-    position: relative;
-    line-height: 1.6rem;
-    margin-top: 20px;
-}
-
-.parrainage{
-    background: url(img/427-bg-parrainage-top-2x.png.webp);
-    height: 46px;
-    margin-top: 5px;
-}
-
-.customer{
-    background: url(img/437-index-customer-rating-bg-2x.png.webp);
-    text-align: center;
-    height: 380px;
-}
-
-.blog-before{
-    background: url(img/436-index-blog-top-2x.png.webp);
-    height: 36px;
-    background-color: rgba(0, 0, 0, 0.788);
-}
-
-.blog{
-    background: url(img/502-index-blog-bg-2x.jpeg.webp);
-    height: 570px;
-}
-
-.end-blog{
-    background: url(img/434-index-legal-top.png.webp);
-    height: 46px;
-    background-color: #252A21;
-}
-
-.dernier-mot{
-    background: url(img/435-index-legal-top.png.webp);
-    height: 377px;
-
-}
-
-.services{
-    background: url(img/337-reassurance-bg.png.webp);
-    height: 172px;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1440px;
-    background: url(https://media.cdnws.com/_i/171161/337/2970/40/reassurance-bg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-top: 1px solid #DCE5E9;
-    border-bottom: 3px solid #50AD59;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-}
-
-.content{
-    background: #FEFAE0;
-    position: relative;
-    text-align: center;
-    line-height: 1;
-    font-size: 0.875rem;
-    color: #242920;
-    margin: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 10px 50px;
-}
-
-.footer{
-    background-color: #2B2B2B;
-    height: 600px;
-}
 
 
 
